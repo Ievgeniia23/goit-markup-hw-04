@@ -1,0 +1,301 @@
+h1, h2, h3, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul  {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+ 
+img {
+    display: block;
+}
+.container {
+max-width: 1158px;
+padding: 0 15px; 
+margin-left: auto;
+margin-right: auto;
+}
+ 
+.link {
+text-decoration: none;
+}
+.list {
+list-style-type: none;
+}
+
+
+/*====================HEADER==================*/
+
+
+.page-header {
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+}
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    gap: 40px;
+}
+.menu-item {
+ padding: 24px 0;
+}
+.menu-link {
+    padding: 24px 0;
+}
+
+.menu-address {
+    display: flex;
+    gap: 40px;
+}
+
+button {
+cursor: pointer;
+background: var(--iris, #4D5AE5);
+border: none;
+}
+
+body {
+font-family: "Roboto", sans-serif;
+color: var(--slate, #434455);
+background-color:#FFFFFF;
+}
+    
+.logo {
+color: var(--iris, #4D5AE5);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-right: 76px;
+}
+
+.logo-style {
+color: var(--navyblue, #2E2F42);
+font-family: "Raleway", sans-serif;
+
+}
+
+.menu-link {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navyblue, #2E2F42);
+ }
+ .menu-link:hover,
+ .menu-link:focus {
+ color: var(--ocean, #404BBF);
+ }
+
+ .menu-address-link:hover,
+ .menu-address-link:focus {
+  color: var(--ocean, #404BBF);
+ }
+
+address {
+font-style: normal;
+}
+
+.menu-address-link {
+color: var(--slate, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+ }
+
+ /*=========1==HERO SECTION========================*/
+.hero-page {
+background: var(--navyblue, #2E2F42);
+height: 600px;
+padding: 188px 0;
+}
+
+.hero-page-title {
+color: var(--white, #FFF);
+text-align: center;
+font-size: 56px;
+line-height: 1.07; 
+letter-spacing: 0.02em;
+margin-bottom: 48px;
+max-width: 496px;
+margin-left: auto;
+margin-right: auto;
+ }
+
+.hero-page-button {
+display: block;
+font-family: "Roboto", sans-serif;
+color: var(--white, #FFF);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.04em;
+margin-left: auto;
+margin-right: auto;
+border-radius: 4px;
+min-width: 169px;
+height: 56px;
+
+ }
+ .hero-page-button:hover,
+ .hero-page-button:focus {
+background: var(--ocean, #404BBF);
+ }
+
+/*============2==Principles of work Section=============*/
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+ .principles-page {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.principles-menu {
+    display: flex;
+    gap: 24px;
+  }
+
+  .principles-menu-item {
+    width: calc((100% - 72px)  / 4);
+  }
+
+  .menu-item-description {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+       }
+
+
+ /*=======================================================*/
+
+
+.section-title {
+color: var(--navyblue, #2E2F42);
+text-align: center;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+margin-bottom: 72px;
+}
+
+.menu-item-title {
+color: var(--navyblue, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+margin-bottom: 8px;
+
+}
+
+
+/*===================3===Our team Section =================*/
+.team-menu {
+    display: flex;
+    gap: 24px;
+    
+  }
+
+.team-page {
+background: var(--cloud, #F4F4FD);
+height: 732px;
+padding: 120px 0;
+}
+
+.team-menu-item {
+background-color:#FFFFFF;  
+width: calc((100% - 3 * 24px) / 4);
+border-radius: 0px 0px 4px 4px;
+}
+
+.team {
+    text-align: center;
+    padding: 32px 0;
+}   
+
+
+/*===================4===Portfolio Section =================*/
+.portfolio-page {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+
+.portfolio-menu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+ 
+  .portfolio-menu-item {
+   width: calc((100% - 48px) / 3);
+  }
+
+   .portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+   }
+
+  
+/*======================Footer============================*/ 
+.footer-page {
+background: var(--navyblue, #2E2F42);   
+height: 312px;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.logo-style-footer {
+color: var(--cloud, #F4F4FD);
+font-family: "Raleway", sans-serif;
+
+}
+.logo-footer {
+display: inline-block; 
+margin-bottom: 16px;
+    color: var(--iris, #4D5AE5);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+
+.footer-description {
+color: var(--cloud, #F4F4FD);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+width: 264px;
+}
+
