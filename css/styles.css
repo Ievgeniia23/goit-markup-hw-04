@@ -423,11 +423,11 @@ letter-spacing: 0.02em;
 width: 264px;
 }
 
-.social-media-container {
+/*.social-media-container {
     width: 208px;
     gap: 16px;
     display: flex;
-}
+}*/
 
 .media-list {
 display: flex;
