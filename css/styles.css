@@ -38,7 +38,7 @@ list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    padding: 24px 0;
 }
 .page-navigation {
     display: flex;
@@ -49,7 +49,7 @@ list-style-type: none;
     gap: 40px;
 }
 .menu-item {
- padding: 24px 0;
+
 }
 .menu-link {
     font-size: 16px;
@@ -58,26 +58,31 @@ list-style-type: none;
     letter-spacing: 0.02em;
     color: var(--navyblue, #2E2F42);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
     bottom: -1px;
+    
+
      }
 
      .menu-link:hover,
      .menu-link:focus {
      color: var(--ocean, #404BBF);
-    
-     }
-   
-.menu-link::after {
+         }
+
+   .studio-link {
+    color: #404BBF;
+    position: relative;
+   }
+
+.studio-link::after {
     content: "";
     display: block;
     width: 100%; 
     height: 4px; 
     background-color: #404BBF;
-    margin-top: 20px;
     position: absolute;
     left: 0;
     border-radius: 2px;
+    bottom: -1;
       
 }
 
@@ -138,7 +143,7 @@ background: var(--navyblue, #2E2F42);
 height: 600px;
 padding: 188px 0;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-url(/images/people-office.jpg);
+url(../images/people-office.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 max-width: 1440px; 
@@ -285,8 +290,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     gap: 24px;
     justify-content: center;
     display: flex;
-    width: 232px;
-    height: 40px;
     margin-top: 8px;
     margin-right: auto;
     margin-bottom: 0;
@@ -384,7 +387,6 @@ padding-bottom: 100px;
 .footer-container {
     display: flex;
     margin-left: 156px;
-    gap: 120px;
     align-items: baseline;
 }
 .logo-footer-container {
@@ -409,7 +411,7 @@ text-transform: uppercase;
 }
 
 .footer-description {
-color: var(--cloud, #F4F4FD);
+ color: var(--cloud, #F4F4FD);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -424,7 +426,7 @@ gap: 16px;
 }
 
 .social-title {
-    color: #FFFFFF;
+   color: var(--WHITE, #FFF);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
